@@ -32,14 +32,12 @@ public class PlayerMovement : MonoBehaviour
     private float verticalPos;
     private Animator dash;
     private Rigidbody2D rb;
-    private SpriteRenderer sr;
     private MovementUtility movement;
 
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         dash = GetComponent<Animator>();
-        sr = GetComponent<SpriteRenderer>();
         movement = this.AddComponent<MovementUtility>();
 
         HorizontalSpeedRigid = 3.0f;
@@ -84,7 +82,10 @@ public class PlayerMovement : MonoBehaviour
         else if (Input.GetKey(KeyCode.D))
         {
             direction = "right";
-        }   
+        }
+
+        // jitter hehe
+        // not yet implemented
     }
 
     void Move2DRigid()
@@ -111,6 +112,7 @@ public class PlayerMovement : MonoBehaviour
         dash.SetTrigger("isDashing");
 
         // we need to find the direction the player is facing and then apply that as a force.
+        // instead of finding direction and adjusting the sprite, let's just use a plain circle honestly
 
         // how long dash lasts
         yield return new WaitForSeconds(dashLength);

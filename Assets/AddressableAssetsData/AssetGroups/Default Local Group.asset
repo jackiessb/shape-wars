@@ -1,0 +1,65 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: 5c550c1d579f186478ae12ada3362041
+  m_SerializeEntries:
+  - m_GUID: 72dbd80e71b7e2a4c9fccc5105f472ee
+    m_Address: Textures/sword/guards
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sword
+  - m_GUID: 0a70fc83097588d4ea1810c876677d58
+    m_Address: Textures/sword/handles
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sword
+  - m_GUID: 21523821b722be64ea8ba482ff0dd02f
+    m_Address: Textures/sword/tips
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sword
+  - m_GUID: 42bb999fa06deee44a60a7bed2955609
+    m_Address: Textures/sword/guard_default
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sword
+  - m_GUID: fa6955a991507254dab0dd87903798ae
+    m_Address: Textures/enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 8b991f27370acdb41998f7a168837867
+    m_Address: Textures/player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: b41a4d55225ed294ca2e56b6352ba5f6
+    m_Address: Prefabs/Default Weapons/Sword/Sword
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: f1301a595f9f9524a845d34995e941b3
+    m_Address: Prefabs/Enemy
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 643d6d529b134474aa36113b4b96f208
+    m_Address: Textures/enemy v2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 2fbba8688d2b89a459398944c408ca7f, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: ff2a1b8b015c4f84fb4c6827ca1cc3bb, type: 2}
+    - {fileID: 11400000, guid: 333abda702f9fb74e837db310b7ff522, type: 2}

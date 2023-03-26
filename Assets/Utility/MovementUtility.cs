@@ -16,7 +16,7 @@ public class MovementUtility : MonoBehaviour
         {
             Debug.Log("Trying to skip the animation");
 
-            float newRotation = Mathf.LerpAngle(startRotation, endRotation, 1);
+            float newRotation = Mathf.LerpAngle(startRotation, endRotation, 0);
             rb.MoveRotation(newRotation);
             yield return null;
         } 
