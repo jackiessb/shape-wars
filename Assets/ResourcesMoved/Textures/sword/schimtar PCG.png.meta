@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0c108a81036f12a4487423732ebc702b
+guid: 830cca905b4da024880880ab54912008
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,34 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player dash_0
+      name: schimtarslash_red1
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 353.8
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 75, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4da7a3238e2aa804a9589aa306130563
-      internalID: 1337448206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player dash_1
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 0
-        width: 353.8
-        height: 256
+        x: 3
+        y: 222
+        width: 84
+        height: 137
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,71 +130,197 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c4fccbb2838c764bad22ea753812ce8
-      internalID: 1727357781
+      spriteID: c86e68fa2ed40f94185725feee2ab8cf
+      internalID: 1215686485
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player dash_2
+      name: schimtarslash_blue1
       rect:
         serializedVersion: 2
-        x: 706
-        y: 0
-        width: 353.8
-        height: 256
+        x: 212
+        y: 228
+        width: 83
+        height: 136
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 47, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cccb78e866e9b34cbe8c855d108b4bc
-      internalID: 1900610670
+      spriteID: 9d48a4756bb59114aafb59fdccdf507f
+      internalID: -912071723
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player dash_3
+      name: schimtarslash_green1
       rect:
         serializedVersion: 2
-        x: 1059
-        y: 0
-        width: 353.8
-        height: 256
+        x: 418
+        y: 223
+        width: 84
+        height: 136
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 75, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3e7150b96b82bf4280d759ef486c884
-      internalID: -1039880929
+      spriteID: 93f95c9c69089e64384ac47c6bf6fe97
+      internalID: -2030795022
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player dash_4
+      name: schimtarslash_bright1
       rect:
         serializedVersion: 2
-        x: 1412
-        y: 0
-        width: 353.8
-        height: 256
+        x: 628
+        y: 226
+        width: 84
+        height: 136
       alignment: 0
       pivot: {x: 0, y: 0}
-      border: {x: 85, y: 0, z: 0, w: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 502861c21a7f94c4ea77a0849a756113
-      internalID: 1602088543
+      spriteID: f7ee91e51f980df43a7c7c8036412b7a
+      internalID: 463856518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: schimtarslash_purple1
+      rect:
+        serializedVersion: 2
+        x: 827
+        y: 226
+        width: 83
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298a819267bf09945ac105d44836b2ea
+      internalID: -1585883087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: schimtarslash_red2
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 10
+        width: 87
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb39fc3e9d128cc41af074c7fc8544c8
+      internalID: 1787300581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: schimtarslash_blue2
+      rect:
+        serializedVersion: 2
+        x: 220
+        y: 7
+        width: 87
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e964248ec68e2b47a894562742a5ed7
+      internalID: 1277589856
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: schimtarslash_green2
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 3
+        width: 90
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7520cfb5334ba134597e7a33d4c2f47a
+      internalID: -1128761788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sschimtarslash_bright2
+      rect:
+        serializedVersion: 2
+        x: 633
+        y: 6
+        width: 87
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d13b46ad043d86a4ea030a575e68d799
+      internalID: -1885651798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: schimtarslash_purple2
+      rect:
+        serializedVersion: 2
+        x: 835
+        y: 6
+        width: 87
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71c86a6ea3eda8743b24ba668781a2f5
+      internalID: -213027346
       vertices: []
       indices: 
       edges: []
@@ -231,11 +336,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      player dash_4: 1602088543
-      player dash_1: 1727357781
-      player dash_0: 1337448206
-      player dash_2: 1900610670
-      player dash_3: -1039880929
+      schimtarslash_bright1: 463856518
+      sschimtarslash_bright2: -1885651798
+      schimtarslash_purple2: -213027346
+      schimtarslash_blue2: 1277589856
+      schimtarslash_green1: -2030795022
+      schimtarslash_purple1: -1585883087
+      schimtarslash_green2: -1128761788
+      schimtarslash_red2: 1787300581
+      schimtarslash_red1: 1215686485
+      schimtarslash_blue1: -912071723
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

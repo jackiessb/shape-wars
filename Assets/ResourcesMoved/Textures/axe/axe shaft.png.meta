@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 21523821b722be64ea8ba482ff0dd02f
+guid: 93a8cbcd458d92a4f91a13965f187c0e
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,43 +116,127 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tip_curve_shell
+      name: axeshaft_default
       rect:
         serializedVersion: 2
-        x: 4
-        y: 478
-        width: 109
-        height: 418
+        x: 143
+        y: 520
+        width: 41
+        height: 369
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0b7b56b7c3a0624a87f0bd6ada428ea
-      internalID: 180047377
+      spriteID: c8c27084a6adbe44ea0c7ce859873de3
+      internalID: 1039423877
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tip_standard_shell
+      name: axeshaft_blue
       rect:
         serializedVersion: 2
-        x: 17
-        y: 47
-        width: 87
-        height: 370
+        x: 440
+        y: 518
+        width: 43
+        height: 369
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 267c3287545770d43b41289af5ad3f83
-      internalID: -2085590049
+      spriteID: 96f37ede36dabd143bf06522e7fc904a
+      internalID: 488848599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axeshaft_bright
+      rect:
+        serializedVersion: 2
+        x: 741
+        y: 503
+        width: 42
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27e308c7c9eeb444f9852c91b48d9b18
+      internalID: 1321546758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axeshaft_green
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 16
+        width: 42
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa4b2c908c349748b2e26da8459166c
+      internalID: 181173975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axeshaft_purple
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 16
+        width: 42
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cc0a6426d0f6446ae99aa17d760740
+      internalID: -1962790165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axeshaft_red
+      rect:
+        serializedVersion: 2
+        x: 747
+        y: 15
+        width: 42
+        height: 369
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08e4ece906d09a1439f97015474fc921
+      internalID: 591488931
       vertices: []
       indices: 
       edges: []
@@ -168,16 +252,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tip_tier2: -1250560715
-      tip_curve_tier4: -892763005
-      tip_tier4: -1188927062
-      tip_tier3: -220994177
-      tip_curve_tier5: -60891895
-      tip_curve_tier2: 705675367
-      tip_curve_tier3: -1204090367
-      tip_curve_shell: 180047377
-      tip_tier5: -1800686675
-      tip_standard_shell: -2085590049
+      axeshaft_blue: 488848599
+      axeshaft_default: 1039423877
+      axeshaft_green: 181173975
+      axeshaft_purple: -1962790165
+      axeshaft_red: 591488931
+      axeshaft_bright: 1321546758
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 21523821b722be64ea8ba482ff0dd02f
+guid: 0cc8fe970e2c4694a8eb7cddcf8df937
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tip_curve_shell
+      name: axehead_default
       rect:
         serializedVersion: 2
-        x: 4
-        y: 478
-        width: 109
-        height: 418
+        x: 0
+        y: 200
+        width: 400
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0b7b56b7c3a0624a87f0bd6ada428ea
-      internalID: 180047377
+      spriteID: 777c62c13f094f84f8bbf192a1a00f67
+      internalID: 1556133425
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tip_standard_shell
+      name: axehead_thin
       rect:
         serializedVersion: 2
-        x: 17
-        y: 47
-        width: 87
-        height: 370
+        x: 400
+        y: 200
+        width: 400
+        height: 200
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,8 +151,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 267c3287545770d43b41289af5ad3f83
-      internalID: -2085590049
+      spriteID: d7101dffc7baffd49a96851ecb9d726e
+      internalID: 1937407252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axehead_spiked
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 200
+        width: 400
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4898e135ed895b4e839697a2e52edc9
+      internalID: 1476871879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axehead_curved
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 400
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3c80793b95a1884993b8dc095f71085
+      internalID: 1731168851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axehead_diamond
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 0
+        width: 400
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c04476a6d820c5a4e9f93fda248ab2b2
+      internalID: 201483045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axehead_square
+      rect:
+        serializedVersion: 2
+        x: 800
+        y: 0
+        width: 400
+        height: 200
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c14b24dcabbd8794ea1c480def580a41
+      internalID: 784983630
       vertices: []
       indices: 
       edges: []
@@ -168,16 +252,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tip_tier2: -1250560715
-      tip_curve_tier4: -892763005
-      tip_tier4: -1188927062
-      tip_tier3: -220994177
-      tip_curve_tier5: -60891895
-      tip_curve_tier2: 705675367
-      tip_curve_tier3: -1204090367
-      tip_curve_shell: 180047377
-      tip_tier5: -1800686675
-      tip_standard_shell: -2085590049
+      axehead_thin: 1937407252
+      axehead_spiked: 1476871879
+      axehead_curved: 1731168851
+      axehead_default: 1556133425
+      axehead_square: 784983630
+      axehead_diamond: 201483045
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

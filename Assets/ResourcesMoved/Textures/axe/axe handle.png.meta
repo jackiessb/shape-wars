@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 21523821b722be64ea8ba482ff0dd02f
+guid: 122cb0173c0b4c346993709f9526e148
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tip_curve_shell
+      name: axehandle_red
       rect:
         serializedVersion: 2
-        x: 4
-        y: 478
-        width: 109
-        height: 418
+        x: 5
+        y: 45
+        width: 25
+        height: 80
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0b7b56b7c3a0624a87f0bd6ada428ea
-      internalID: 180047377
+      spriteID: da5d1581405aaf74eae101e61ad5b9af
+      internalID: 406965306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tip_standard_shell
+      name: axehandle_blue
       rect:
         serializedVersion: 2
-        x: 17
-        y: 47
-        width: 87
-        height: 370
+        x: 114
+        y: 44
+        width: 25
+        height: 79
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,8 +151,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 267c3287545770d43b41289af5ad3f83
-      internalID: -2085590049
+      spriteID: 934ea5501ab84b64b97c59046e73df4c
+      internalID: 610353861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axehandle_green
+      rect:
+        serializedVersion: 2
+        x: 208
+        y: 43
+        width: 25
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3aa615468aeb40147b4002d797d3ed4d
+      internalID: 1787916541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axehandle_purple
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 47
+        width: 26
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ff31f946df22684a892bb349a4f5f52
+      internalID: -2061115981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: axehandle_bright
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 46
+        width: 27
+        height: 79
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf83790d24c50d4468c870fe42b8f7e7
+      internalID: 581756535
       vertices: []
       indices: 
       edges: []
@@ -168,16 +231,11 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tip_tier2: -1250560715
-      tip_curve_tier4: -892763005
-      tip_tier4: -1188927062
-      tip_tier3: -220994177
-      tip_curve_tier5: -60891895
-      tip_curve_tier2: 705675367
-      tip_curve_tier3: -1204090367
-      tip_curve_shell: 180047377
-      tip_tier5: -1800686675
-      tip_standard_shell: -2085590049
+      axehandle_red: 406965306
+      axehandle_blue: 610353861
+      axehandle_bright: 581756535
+      axehandle_purple: -2061115981
+      axehandle_green: 1787916541
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

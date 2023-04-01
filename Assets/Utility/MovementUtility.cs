@@ -5,6 +5,9 @@ using UnityEngine;
  
 public class MovementUtility : MonoBehaviour
 {
+    public float amplitude = 0.5f;
+    public float frequency = 0.5f;
+
     public IEnumerator rotateUpright(Rigidbody2D rb, float rotationSpeed, bool skipAnimation)
     {
         float startRotation = rb.rotation;
@@ -52,11 +55,13 @@ public class MovementUtility : MonoBehaviour
         {
             if (direction == "left" && transform.localScale.x !> 0)
             {
+                Debug.Log("go left");
                 transform.localScale = new Vector3(-transform.localScale.x,
                     transform.localScale.y, transform.localScale.z);
             }
             else if (direction == "right" && transform.localScale.x !< 0)
             {
+                Debug.Log("go right");
                 transform.localScale = new Vector3(-transform.localScale.x,
                     transform.localScale.y, transform.localScale.z);
             }

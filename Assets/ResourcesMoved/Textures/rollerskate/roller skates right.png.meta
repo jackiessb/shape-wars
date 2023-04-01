@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 21523821b722be64ea8ba482ff0dd02f
+guid: c3e6aa50aaecc844abe5a436372f20c0
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,13 +116,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: tip_curve_shell
+      name: rollerskate_right_default
       rect:
         serializedVersion: 2
-        x: 4
-        y: 478
-        width: 109
-        height: 418
+        x: 213
+        y: 1085
+        width: 70
+        height: 69
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +130,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0b7b56b7c3a0624a87f0bd6ada428ea
-      internalID: 180047377
+      spriteID: f32dca3fe6f5096408f494259e45f250
+      internalID: -642646644
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: tip_standard_shell
+      name: rollerskate_right_red
       rect:
         serializedVersion: 2
-        x: 17
-        y: 47
-        width: 87
-        height: 370
+        x: 213
+        y: 875
+        width: 70
+        height: 69
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,8 +151,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 267c3287545770d43b41289af5ad3f83
-      internalID: -2085590049
+      spriteID: f569e5b9a8c48af48abe1145180a4b16
+      internalID: -1639661752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rollerskate_right_blue
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 675
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6f36233b0f18da44d9d075b5e514119d
+      internalID: 594057329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rollerskate_right_green
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 473
+        width: 70
+        height: 69
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f175a5da748b5af49b60df740e8d3ad0
+      internalID: 1019466681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rollerskate_right_bright
+      rect:
+        serializedVersion: 2
+        x: 192
+        y: 259
+        width: 70
+        height: 68
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 342e00b4b7497a640898f49be3315ab4
+      internalID: -531364542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: rollerskate_right_purple
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 43
+        width: 72
+        height: 70
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0308001031b6ce0438780b616ce52b46
+      internalID: -1068167694
       vertices: []
       indices: 
       edges: []
@@ -168,16 +252,30 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      tip_tier2: -1250560715
-      tip_curve_tier4: -892763005
-      tip_tier4: -1188927062
-      tip_tier3: -220994177
-      tip_curve_tier5: -60891895
-      tip_curve_tier2: 705675367
-      tip_curve_tier3: -1204090367
-      tip_curve_shell: 180047377
-      tip_tier5: -1800686675
-      tip_standard_shell: -2085590049
+      roller skates right_0: 537866300
+      rollerskate_right_red: -1639661752
+      rollerskate_right_default: -642646644
+      roller skates right_15: -1280097048
+      roller skates right_6: -782360761
+      rollerskate_right_blue: 594057329
+      roller skates right_20: 499298018
+      roller skates right_3: -1760494074
+      roller skates right_12: 1582236965
+      roller skates right_14: 305667152
+      roller skates right_16: 1245277714
+      roller skates right_22: -54839604
+      roller skates right_4: 1393563840
+      roller skates right_18: -207962095
+      roller skates right_10: -234181729
+      rollerskate_right_purple: -1068167694
+      roller skates right_19: 1967747497
+      roller skates right_2: -376045088
+      rollerskate_right_bright: -531364542
+      rollerskate_right_green: 1019466681
+      roller skates right_7: 374203457
+      roller skates right_8: -687368291
+      roller skates right_11: -755399197
+      roller skates right_23: -2145789086
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

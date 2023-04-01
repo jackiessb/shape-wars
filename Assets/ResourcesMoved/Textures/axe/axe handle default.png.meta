@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 21523821b722be64ea8ba482ff0dd02f
+guid: 09a23d9276d53424fa298674bdb090fa
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -42,7 +42,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 2
+  spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -52,7 +52,7 @@ TextureImporter:
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
-  spriteTessellationDetail: -1
+  spriteTessellationDetail: 0
   textureType: 8
   textureShape: 1
   singleChannelComponent: 0
@@ -114,70 +114,27 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites:
-    - serializedVersion: 2
-      name: tip_curve_shell
-      rect:
-        serializedVersion: 2
-        x: 4
-        y: 478
-        width: 109
-        height: 418
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e0b7b56b7c3a0624a87f0bd6ada428ea
-      internalID: 180047377
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: tip_standard_shell
-      rect:
-        serializedVersion: 2
-        x: 17
-        y: 47
-        width: 87
-        height: 370
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 267c3287545770d43b41289af5ad3f83
-      internalID: -2085590049
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    outline: []
+    sprites: []
+    outline:
+    - - {x: 7, y: 43}
+      - {x: -6, y: 43}
+      - {x: -14, y: 39}
+      - {x: -14, y: -36}
+      - {x: -9, y: -41}
+      - {x: 7, y: -41}
+      - {x: 14, y: -34}
+      - {x: 14, y: 11}
+      - {x: 13, y: 35}
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
-    internalID: 0
+    internalID: 1537655665
     vertices: []
     indices: 
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable:
-      tip_tier2: -1250560715
-      tip_curve_tier4: -892763005
-      tip_tier4: -1188927062
-      tip_tier3: -220994177
-      tip_curve_tier5: -60891895
-      tip_curve_tier2: 705675367
-      tip_curve_tier3: -1204090367
-      tip_curve_shell: 180047377
-      tip_tier5: -1800686675
-      tip_standard_shell: -2085590049
+    nameFileIdTable: {}
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

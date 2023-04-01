@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0c108a81036f12a4487423732ebc702b
+guid: 8727af7cf4fb6e44ab695ef018fcb5af
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -116,106 +116,211 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: player dash_0
+      name: guarddetail_redblock
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 353.8
-        height: 256
+        x: 30
+        y: 9
+        width: 33
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 75, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 4da7a3238e2aa804a9589aa306130563
-      internalID: 1337448206
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: player dash_1
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 0
-        width: 353.8
-        height: 256
-      alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c4fccbb2838c764bad22ea753812ce8
-      internalID: 1727357781
+      spriteID: 4684641a449f4c7408cf235524658a2a
+      internalID: -1223385326
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player dash_2
+      name: guarddetail_redcross
       rect:
         serializedVersion: 2
-        x: 706
-        y: 0
-        width: 353.8
-        height: 256
+        x: 127
+        y: 7
+        width: 33
+        height: 43
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 47, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3cccb78e866e9b34cbe8c855d108b4bc
-      internalID: 1900610670
+      spriteID: 442ecf2c06eef6945b77a2fa831b2baa
+      internalID: -1180208059
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player dash_3
+      name: guarddetail_blueblock
       rect:
         serializedVersion: 2
-        x: 1059
-        y: 0
-        width: 353.8
-        height: 256
+        x: 227
+        y: 10
+        width: 33
+        height: 38
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 75, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f3e7150b96b82bf4280d759ef486c884
-      internalID: -1039880929
+      spriteID: f830dd8e77cb4fe49b594b7faa10ab89
+      internalID: 1774003411
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: player dash_4
+      name: guarddetail_bluecross
       rect:
         serializedVersion: 2
-        x: 1412
-        y: 0
-        width: 353.8
-        height: 256
+        x: 324
+        y: 9
+        width: 33
+        height: 42
       alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 85, y: 0, z: 0, w: 0}
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 502861c21a7f94c4ea77a0849a756113
-      internalID: 1602088543
+      spriteID: 6fa70c7b7fe8ff24ca170f3c9d68d195
+      internalID: 2050066012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guarddetail_greenblock
+      rect:
+        serializedVersion: 2
+        x: 432
+        y: 9
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae527394f15759749874ed2364247bb7
+      internalID: -802859562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guarddetail_greencross
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 10
+        width: 32
+        height: 39
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 586f8eb4bfea3554d86a79def67095f5
+      internalID: -1807708132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guarddetail_brightblock
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 10
+        width: 35
+        height: 38
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5cc6a347eb68d54a8d8a3a886d510d5
+      internalID: 1654296809
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guarddetail_brightcross
+      rect:
+        serializedVersion: 2
+        x: 738
+        y: 7
+        width: 33
+        height: 42
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c24a84f061d77341a8cd2825e77abd5
+      internalID: 699972053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guarddetail_purpleblock
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 9
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b87760a0240cc6049aea8ddc9df2a91b
+      internalID: -486684775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: guarddetail_purplecross
+      rect:
+        serializedVersion: 2
+        x: 944
+        y: 6
+        width: 33
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794005c80fbf2804ea7b70d3cf4e6ccf
+      internalID: -1774299647
       vertices: []
       indices: 
       edges: []
@@ -231,11 +336,16 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      player dash_4: 1602088543
-      player dash_1: 1727357781
-      player dash_0: 1337448206
-      player dash_2: 1900610670
-      player dash_3: -1039880929
+      guarddetail_purplecross: -1774299647
+      guarddetail_greencross: -1807708132
+      guarddetail_brightcross: 699972053
+      guarddetail_purpleblock: -486684775
+      guarddetail_redcross: -1180208059
+      guarddetail_blueblock: 1774003411
+      guarddetail_brightblock: 1654296809
+      guarddetail_greenblock: -802859562
+      guarddetail_redblock: -1223385326
+      guarddetail_bluecross: 2050066012
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

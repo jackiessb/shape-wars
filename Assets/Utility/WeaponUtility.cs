@@ -2,25 +2,46 @@ using UnityEngine;
 
 public class WeaponUtility : MonoBehaviour
 {
-    public GameObject player;
     public bool hideWeaponToggle;
     public bool hasRotated = false;
 
+    public bool playerObjectDashingStatus = false;
+    public bool playerObjectCrouchingStatus = false;
+    public bool playerObjectBusrtStatus = false;
+
     private PlayerMovement pm;
-    private SpriteRenderer[] parts; // weapon parts
-    private int amtParts = 0;
+    private GameObject[] options;
+    private GameObject currentActiveWeapon;
+    private string attachedWeaponName = "";
 
     // Start is called before the first frame update
     void Start()
     {
-        parts = GetComponentsInChildren<SpriteRenderer>();
-        pm = player.GetComponent<PlayerMovement>();
+        options = Resources.FindObjectsOfTypeAll(typeof(GameObject)) as GameObject[];
 
-        amtParts = parts.Length;
+        pm = GetComponent<PlayerMovement>();
     }
 
+    // WARNING: THIS IS NOT AT ALL OPTIMAL.
+    // a redesign is in order.
     void Update()
     {
+        playerObjectDashingStatus = pm.isDashing;
+        playerObjectCrouchingStatus = pm.isCrouching;
+        playerObjectBusrtStatus = pm.isBursting;
+
+        foreach (GameObject obj in options)
+        {
+            if (obj.activeSelf)
+            {
+                if (obj.name == "Sword" || obj.name == "Axe" || obj.name == "Rollerskate")
+                {
+                    attachedWeaponName = obj.name;
+                    currentActiveWeapon = obj;
+                }
+            }
+        }
+
         // some condition here so that we don't waste memory
         if (hideWeaponToggle)
         {
@@ -30,18 +51,18 @@ public class WeaponUtility : MonoBehaviour
 
     void hideWeapon()
     {
-        for (int i = 0; i < amtParts; i++)
+        if (pm.isDashing || pm.isCrouching || pm.isBursting)
         {
-            if (pm.isDashing)
-            {
-                // make weapon disappear
-                parts[i].gameObject.SetActive(false);
-            }
-            else if (!pm.isDashing)
-            {
-                // make it show back up
-                parts[i].gameObject.SetActive(true);
-            }
+            Debug.Log("SetActiveFalse called");
+            currentActiveWeapon.SetActive(false);
+            // make weapon disappear
+
+        }
+        else if (!pm.isDashing || !pm.isCrouching || !pm.isBursting)
+        {
+            Debug.Log("SetActiveTrue called");
+            currentActiveWeapon.SetActive(true);
+            // make it show back up
         }
     }
 }

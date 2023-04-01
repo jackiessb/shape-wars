@@ -48,13 +48,72 @@ MonoBehaviour:
   - m_GUID: b41a4d55225ed294ca2e56b6352ba5f6
     m_Address: Prefabs/Default Weapons/Sword/Sword
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - prefabs
   - m_GUID: f1301a595f9f9524a845d34995e941b3
     m_Address: Prefabs/Enemy
     m_ReadOnly: 0
     m_SerializedLabels: []
   - m_GUID: 643d6d529b134474aa36113b4b96f208
     m_Address: Textures/enemy v2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: feec98aede407cd47bc282f31fdb0acd
+    m_Address: Prefabs/Default Weapons/Axe/Axe.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - prefabs
+  - m_GUID: 0a008edf1c8b4044a8736b34cad6c8de
+    m_Address: Prefabs/Default Weapons/Rollerskate/Rollerskate.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - prefabs
+  - m_GUID: 93a8cbcd458d92a4f91a13965f187c0e
+    m_Address: Textures/axe/axeShaft
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - axe
+  - m_GUID: 0cc8fe970e2c4694a8eb7cddcf8df937
+    m_Address: Textures/axe/axeHeads
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - axe
+  - m_GUID: 122cb0173c0b4c346993709f9526e148
+    m_Address: Textures/axe/axeHandle
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - axe
+  - m_GUID: fb315ecb354b07147b743ff326ce5e50
+    m_Address: Textures/axe/axeHandleShell
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - axe
+  - m_GUID: 09a23d9276d53424fa298674bdb090fa
+    m_Address: Textures/axe/axeHandleDefault
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - axe
+  - m_GUID: 8727af7cf4fb6e44ab695ef018fcb5af
+    m_Address: Textures/sword/guardPCG
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sword
+  - m_GUID: 830cca905b4da024880880ab54912008
+    m_Address: Textures/sword/schimtarPCG
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sword
+  - m_GUID: 350357c6f40108648a40a805157cb710
+    m_Address: Textures/sword/swordPCG
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - sword
+  - m_GUID: 73de9d27737dd7746af6970cb447a23d
+    m_Address: Textures/rollerskate/rollerSkatesLeft
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: c3e6aa50aaecc844abe5a436372f20c0
+    m_Address: Textures/rollerskate/rollerSkatesRight
     m_ReadOnly: 0
     m_SerializedLabels: []
   m_ReadOnly: 0
