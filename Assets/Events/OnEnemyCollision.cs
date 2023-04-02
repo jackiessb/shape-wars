@@ -3,14 +3,15 @@ TO DO:
 when we collide with a player's weapon, recoil back, do not spin around until death or near death
  */
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 
-public class OnCollisionEvent : MonoBehaviour
+public class OnEnemyCollision : MonoBehaviour
 {
     private Animator control;
+    private AudioSource onHit;
     private new CircleCollider2D collider;
     private EnemyAttributes stats;
-    private AudioSource onHit;
 
     private void Start()
     {
@@ -25,10 +26,9 @@ public class OnCollisionEvent : MonoBehaviour
         Collider2D col = collision.collider;
 
         // if the ENEMY collided with a PLAYER'S weapon tip
-        // subtract health
         if (CompareTag("Enemy"))
         {
-            if (col.CompareTag("SwordTip"))
+            if (col.CompareTag("SwordTip") || col.CompareTag("AxeTip"))
             {
                 // remove one health point for each hit
                 stats.health--;
@@ -56,6 +56,9 @@ public class OnCollisionEvent : MonoBehaviour
     IEnumerator triggerDeath(GameObject enemy)
     {
         yield return new WaitForSeconds(1.7f);
+
+        GameObject access = GameObject.Find("DropManager");
+        access.GetComponent<DropUtility>().determineDrop(enemy.transform.position.x, enemy.transform.position.y);
 
         Destroy(enemy);
     }

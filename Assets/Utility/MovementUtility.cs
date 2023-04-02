@@ -7,6 +7,15 @@ public class MovementUtility : MonoBehaviour
 {
     public float amplitude = 0.5f;
     public float frequency = 0.5f;
+    public float rotationSpeed = 1.0f;
+
+    void Update()
+    {
+        if (gameObject.name.Contains("DROP"))
+        {
+            itemFloatEffect(gameObject, rotationSpeed);
+        }
+    }
 
     public IEnumerator rotateUpright(Rigidbody2D rb, float rotationSpeed, bool skipAnimation)
     {
@@ -66,5 +75,13 @@ public class MovementUtility : MonoBehaviour
                     transform.localScale.y, transform.localScale.z);
             }
         }
+    }
+
+    public void itemFloatEffect(GameObject item, float rotationSpeed)
+    {
+        Transform objectTransform = item.transform;
+        float rotationAngle = 360.0f;
+
+        objectTransform.Rotate(0f, rotationAngle * Time.deltaTime * rotationSpeed, 0f);
     }
 }

@@ -13,6 +13,7 @@ using UnityEngine;
 public class PlayerMovement : MonoBehaviour
 {
     // movement speed and behavior
+    [Header("Movement Speed and Behavior")]
     public bool rigid = false;
     public float HorizontalSpeedRigid = 0.0f;
     public float VerticalSpeedRigid = 0.0f;
@@ -21,6 +22,7 @@ public class PlayerMovement : MonoBehaviour
     public float velMag;
 
     // dashing
+    [Header("Dashing")]
     public AnimationClip endOfDash;
     public int dashLength = 1;
     public bool isDashing = false;
@@ -31,6 +33,7 @@ public class PlayerMovement : MonoBehaviour
     public float dashAngle = 0.0f;
 
     // crouch
+    [Header("Crouch Charge")]
     public AnimationClip crouchStages;
     public bool isCrouching = false;
     public bool isBursting = false;

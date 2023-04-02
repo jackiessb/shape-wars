@@ -22,7 +22,7 @@ public class WeaponUtility : MonoBehaviour
         pm = GetComponent<PlayerMovement>();
     }
 
-    // WARNING: THIS IS NOT AT ALL OPTIMAL.
+    // WARNING: THIS IS NOT AT ALL OPTIMAL.  
     // a redesign is in order.
     void Update()
     {
@@ -53,14 +53,11 @@ public class WeaponUtility : MonoBehaviour
     {
         if (pm.isDashing || pm.isCrouching || pm.isBursting)
         {
-            Debug.Log("SetActiveFalse called");
             currentActiveWeapon.SetActive(false);
             // make weapon disappear
-
         }
         else if (!pm.isDashing || !pm.isCrouching || !pm.isBursting)
         {
-            Debug.Log("SetActiveTrue called");
             currentActiveWeapon.SetActive(true);
             // make it show back up
         }

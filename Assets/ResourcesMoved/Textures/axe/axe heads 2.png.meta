@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 0cc8fe970e2c4694a8eb7cddcf8df937
+guid: 4285d22c2af59ae42af9bf3d1f8290bd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -120,18 +120,18 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 200
-        width: 400
-        height: 200
-      alignment: 9
-      pivot: {x: 0.5191791, y: 0.4693132}
+        y: 184.5
+        width: 364.33334
+        height: 184.5
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 777c62c13f094f84f8bbf192a1a00f67
-      internalID: 1556133425
+      spriteID: 4a1fe99da8c0bb04bb81cd774f391e52
+      internalID: 663786669
       vertices: []
       indices: 
       edges: []
@@ -140,10 +140,10 @@ TextureImporter:
       name: axehead_thin
       rect:
         serializedVersion: 2
-        x: 400
-        y: 200
-        width: 400
-        height: 200
+        x: 364
+        y: 184.5
+        width: 364.33334
+        height: 184.5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,8 +151,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d7101dffc7baffd49a96851ecb9d726e
-      internalID: 1937407252
+      spriteID: 31b01fb191952824bb8c59a552486341
+      internalID: -1777010452
       vertices: []
       indices: 
       edges: []
@@ -161,10 +161,10 @@ TextureImporter:
       name: axehead_spiked
       rect:
         serializedVersion: 2
-        x: 800
-        y: 200
-        width: 400
-        height: 200
+        x: 728
+        y: 184.5
+        width: 364.33334
+        height: 184.5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,8 +172,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e4898e135ed895b4e839697a2e52edc9
-      internalID: 1476871879
+      spriteID: 7c99fff5009f9254fa6d322ad049775f
+      internalID: 598308413
       vertices: []
       indices: 
       edges: []
@@ -183,9 +183,9 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 0
-        y: 0
-        width: 400
-        height: 200
+        y: 0.5
+        width: 364.33334
+        height: 184.5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,8 +193,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c3c80793b95a1884993b8dc095f71085
-      internalID: 1731168851
+      spriteID: 255247f97ebbb6542927f07f245ec430
+      internalID: -1172049411
       vertices: []
       indices: 
       edges: []
@@ -203,10 +203,10 @@ TextureImporter:
       name: axehead_diamond
       rect:
         serializedVersion: 2
-        x: 400
-        y: 0
-        width: 400
-        height: 200
+        x: 364
+        y: 0.5
+        width: 364.33334
+        height: 184.5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,8 +214,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c04476a6d820c5a4e9f93fda248ab2b2
-      internalID: 201483045
+      spriteID: 84bb5f84f6eed414cbb4160895e9a1e9
+      internalID: -1013108446
       vertices: []
       indices: 
       edges: []
@@ -224,10 +224,10 @@ TextureImporter:
       name: axehead_square
       rect:
         serializedVersion: 2
-        x: 800
-        y: 0
-        width: 400
-        height: 200
+        x: 728
+        y: 0.5
+        width: 364.33334
+        height: 184.5
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,8 +235,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c14b24dcabbd8794ea1c480def580a41
-      internalID: 784983630
+      spriteID: 7e4a4e86ae0154841af32d0ec052595c
+      internalID: -94335616
       vertices: []
       indices: 
       edges: []
@@ -252,12 +252,12 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      axehead_thin: 1937407252
-      axehead_spiked: 1476871879
-      axehead_curved: 1731168851
-      axehead_default: 1556133425
-      axehead_square: 784983630
-      axehead_diamond: 201483045
+      axehead_thin: -1777010452
+      axehead_spiked: 598308413
+      axehead_curved: -1172049411
+      axehead_default: 663786669
+      axehead_square: -94335616
+      axehead_diamond: -1013108446
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0

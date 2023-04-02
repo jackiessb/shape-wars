@@ -1,4 +1,5 @@
 using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyManager : MonoBehaviour
@@ -7,6 +8,7 @@ public class EnemyManager : MonoBehaviour
 
     public GameObject enemyPlaceholder;
     public GameObject player;
+    public List<GameObject> enemies;
 
     public int numberOfEnemiesOnStart = 7;
 
@@ -27,7 +29,7 @@ public class EnemyManager : MonoBehaviour
             for (int i = 0; i < numberOfEnemiesOnStart; i++)
             {
                 // create the enemy
-                createEnemy();
+                enemies.Add(createEnemy());
             }
         }   
     }

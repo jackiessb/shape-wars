@@ -22,7 +22,7 @@ public class AxePCGData : MonoBehaviour
         Addressables.LoadAssetAsync<Sprite>("Textures/axe/axeHandleDefault").Completed += loadDefaultAxeHandle; // default handle
         Addressables.LoadAssetAsync<IList<Sprite>>("Textures/axe/axeHandle").Completed += loadAxeHandles; // handle variations (axe)
         Addressables.LoadAssetAsync<IList<Sprite>>("Textures/axe/axeShaft").Completed += loadAxeShafts; // shaft variations
-        Addressables.LoadAssetAsync<IList<Sprite>>("Textures/axe/axeHeads").Completed += loadAxeHeads; // head variations
+        Addressables.LoadAssetAsync<IList<Sprite>>("Textures/axe/axeHeads2").Completed += loadAxeHeads; // head variations
     }
 
     public void loadDefaultAxeHandle(AsyncOperationHandle<Sprite> toLoad)

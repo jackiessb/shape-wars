@@ -53,7 +53,8 @@ MonoBehaviour:
   - m_GUID: f1301a595f9f9524a845d34995e941b3
     m_Address: Prefabs/Enemy
     m_ReadOnly: 0
-    m_SerializedLabels: []
+    m_SerializedLabels:
+    - prefabs
   - m_GUID: 643d6d529b134474aa36113b4b96f208
     m_Address: Textures/enemy v2.png
     m_ReadOnly: 0
@@ -116,6 +117,15 @@ MonoBehaviour:
     m_Address: Textures/rollerskate/rollerSkatesRight
     m_ReadOnly: 0
     m_SerializedLabels: []
+  - m_GUID: 4285d22c2af59ae42af9bf3d1f8290bd
+    m_Address: Textures/axe/axeHeads2
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+  - m_GUID: 58f007bdfc1e4044e8306986745ac7d7
+    m_Address: Prefabs/Events/DROP
+    m_ReadOnly: 0
+    m_SerializedLabels:
+    - prefabs
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 2fbba8688d2b89a459398944c408ca7f, type: 2}
   m_SchemaSet:

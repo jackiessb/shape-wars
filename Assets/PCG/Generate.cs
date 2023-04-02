@@ -25,6 +25,9 @@ public struct TipChild {
 public class Generate : MonoBehaviour
 {
     public GameObject player;
+    public bool debugSkates = false;
+    public bool debugSwords = false;
+    public bool debugAxes = false;
 
     private SwordPCGData swordPCG;
     private AxePCGData axePCG;
@@ -37,10 +40,64 @@ public class Generate : MonoBehaviour
         skatePCG = GetComponent<SkatePCGData>();
     }
 
-    // Utility function to generate a random weapon--could be a rollerskate, axe, or sword. Merely for testing.
+    public GameObject getSword()
+    {
+        return player.transform.Find("Sword").gameObject;
+    }
+
+    public GameObject getAxe()
+    {
+        return player.transform.Find("Axe").gameObject;
+    }
+
+    public GameObject getSkate()
+    {
+        return player.transform.Find("Rollerskate").gameObject;
+    }
+
+    public GuardChild getGuardChildren(GameObject guard)
+    {
+        GuardChild children = new()
+        {
+            GUARDDETAIL_RIGHT = guard.transform.Find("GUARDDETAIL_RIGHT").gameObject,
+            GUARDDETAIL_LEFT = guard.transform.Find("GUARDDETAIL_LEFT").gameObject,
+            GUARDDETAIL_CENTER = guard.transform.Find("GUARDDETAIL_CENTER").gameObject
+        };
+
+        return children;
+    }
+
+    public TipChild getTipChildren(GameObject tip)
+    {
+        TipChild children = new()
+        {
+            SLASH_1 = tip.transform.Find("SLASH_1").gameObject,
+            SLASH_2 = tip.transform.Find("SLASH_2").gameObject,
+            SLASH_3 = tip.transform.Find("SLASH_3").gameObject
+        };
+
+        return children;
+    }
+
+    // DEBUG SECTION
+    /// <summary>
+    /// Simply used for testing assets. DO NOT USE IN OFFICIAL RELEASE!
+    /// </summary>
+    /// <returns>void</returns>
     public void accessDebug()
     {
-        generateRandomSwordDebug();
+        if (debugSwords)
+        {
+            generateRandomSwordDebug();
+        }
+        if (debugAxes)
+        {
+            generateRandomAxeDebug();
+        }
+        if (debugSkates)
+        {
+            generateRandomSkateDebug();
+        }
     }
 
     /// <summary>
@@ -53,7 +110,7 @@ public class Generate : MonoBehaviour
 
         // TIP
         TipChild childrenTip = getTipChildren(currentSword.transform.Find("TIP").gameObject);
-        
+
         SpriteRenderer SLASH_1 = childrenTip.SLASH_1.GetComponent<SpriteRenderer>();
         SpriteRenderer SLASH_2 = childrenTip.SLASH_2.GetComponent<SpriteRenderer>();
         SpriteRenderer SLASH_3 = childrenTip.SLASH_3.GetComponent<SpriteRenderer>();
@@ -108,7 +165,20 @@ public class Generate : MonoBehaviour
     /// <returns>void</returns>
     public void generateRandomAxeDebug()
     {
-        
+        GameObject currentAxe = getAxe();
+
+        // HEAD
+        SpriteRenderer HEAD = currentAxe.transform.Find("HEAD").gameObject.GetComponent<SpriteRenderer>();
+        HEAD.sprite = axePCG.axeHeads[Random.Range(0, 6)];
+
+        // SHAFT
+        SpriteRenderer SHAFT = currentAxe.transform.Find("SHAFT").gameObject.GetComponent<SpriteRenderer>();
+        SHAFT.sprite = axePCG.axeShafts[Random.Range(0, 6)];
+
+        // AXE HANDLE
+        SpriteRenderer AXEHANDLE = currentAxe.transform.Find("HANDLE_AXE").gameObject.transform.
+            Find("INNER_HANDLE").gameObject.GetComponent<SpriteRenderer>();
+        AXEHANDLE.sprite = axePCG.axeHandles[Random.Range(0, 5)];
     }
 
     /// <summary>
@@ -117,45 +187,14 @@ public class Generate : MonoBehaviour
     /// <returns>void</returns>
     public void generateRandomSkateDebug()
     {
+        GameObject currentSkate = getSkate();
 
-    }
+        // LEFT
+        SpriteRenderer LEFT = currentSkate.transform.Find("LEFT").gameObject.GetComponent<SpriteRenderer>();
+        LEFT.sprite = skatePCG.skatesLeft[Random.Range(0, 6)];
 
-    public GameObject getSword()
-    {
-        return player.transform.Find("Sword").gameObject;
-    }
-
-    public GameObject getAxe()
-    {
-        return player.transform.Find("Axe").gameObject;
-    }
-
-    public GameObject getSkate()
-    {
-        return player.transform.Find("Rollerskate").gameObject;
-    }
-
-    public GuardChild getGuardChildren(GameObject guard)
-    {
-        GuardChild children = new()
-        {
-            GUARDDETAIL_RIGHT = guard.transform.Find("GUARDDETAIL_RIGHT").gameObject,
-            GUARDDETAIL_LEFT = guard.transform.Find("GUARDDETAIL_LEFT").gameObject,
-            GUARDDETAIL_CENTER = guard.transform.Find("GUARDDETAIL_CENTER").gameObject
-        };
-
-        return children;
-    }
-
-    public TipChild getTipChildren(GameObject tip)
-    {
-        TipChild children = new()
-        {
-            SLASH_1 = tip.transform.Find("SLASH_1").gameObject,
-            SLASH_2 = tip.transform.Find("SLASH_2").gameObject,
-            SLASH_3 = tip.transform.Find("SLASH_3").gameObject
-        };
-
-        return children;
+        // RIGHT
+        SpriteRenderer RIGHT = currentSkate.transform.Find("RIGHT").gameObject.GetComponent<SpriteRenderer>();
+        RIGHT.sprite = skatePCG.skatesRight[Random.Range(0, 6)];
     }
 }
